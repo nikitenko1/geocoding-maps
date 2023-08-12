@@ -232,7 +232,7 @@ const Directions = ({ show, setShow, map }) => {
               <input
                 type="text"
                 id="src"
-                class=" bg-bg border text-lightestSlate text-sm rounded-lg focus:ring-blue-500
+                className=" bg-bg border text-lightestSlate text-sm rounded-lg focus:ring-blue-500
                 
                 focus:border-blue-500 outline-none block w-full p-2.5"
                 placeholder="Starting Point"
@@ -246,7 +246,7 @@ const Directions = ({ show, setShow, map }) => {
               <input
                 type="text"
                 id="dest"
-                class=" bg-bg border text-lightestSlate text-sm rounded-lg focus:ring-blue-500
+                className=" bg-bg border text-lightestSlate text-sm rounded-lg focus:ring-blue-500
                  focus:border-blue-500 outline-none block w-full p-2.5"
                 placeholder="Destination"
                 onChange={(e) =>
